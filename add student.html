@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>Add Student</title>
+<link rel="stylesheet" type="text/css" href="add.css">
+</head>
+<body>
+<h3>STUDENT REGISTRATION FORM</h3>
+<form method="post" action="add.php" >
+<table align="center" cellpadding = "10">
+<tr>
+<td>STUDENT ID</td>
+<td><input type="text" name="SID" maxlength="20"/>
+    <span id="message"></span>
+</td>
+</tr>	
+<tr>
+<td>FIRST NAME</td>
+<td><input type="text" name="Fname" maxlength="30" required />
+</td>
+</tr> 
+<tr>
+<td>LAST NAME</td>
+<td><input type="text" name="Lname" minlength="3" maxlength="30" required /> 
+</td>
+</tr>
+<tr>
+<td>DATE OF BIRTH</td>
+<td>
+<input type="date" name="bday"/>
+</td>
+</tr>
+<tr>
+<td>MOBILE NUMBER</td>
+<td>
+<input type="text" name="Mo_num" maxlength="10" />
+</td>
+</tr>
+<tr>
+<td>GENDER</td>
+<td>
+Male <input type="radio" name="Gender" value="M" />
+Female <input type="radio" name="Gender" value="F" />
+</td>
+</tr>
+<tr>
+<td>ADDRESS <br /><br /><br /></td>
+<td><textarea name="Address" rows="4" cols="30" required ></textarea></td>
+</tr>
+<tr>
+<td>CLASS</td>
+<td><input type="text" name="std" maxlength="10" />
+</td>
+</tr>
+</tr>
+<tr>
+<td>ROLL NO</td>
+<td><input type="text" name="Roll_no" maxlength="10" />
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+</form> 
+</body>
+</html>
